@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(AoC2024 CXX)
 
-foreach(DAY RANGE 1 3)
+foreach(DAY RANGE 1 4)
     foreach(PART a b)
         add_executable(d${DAY}${PART} src/${DAY}${PART}.cpp)
     endforeach()
